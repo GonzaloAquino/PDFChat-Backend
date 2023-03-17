@@ -44,4 +44,4 @@ def query_index():
     return jsonify({"response" : response.response})
 
 if __name__ == '__main__':
-    app.run()
+    app.run("64.226.82.147")
